@@ -1,7 +1,7 @@
 ﻿#Gets video files from current directory
 echo '-Getting List of videos'
 $vList = (Get-ChildItem *.avi, *.divx, *.dvx, *.f4p, *.f4v, *.fli, *.flv,
- *.mp4, *.mov, *.m4v, *.mpg, *.mpeg, *.wmv, *.mkv, *.xvid -File)
+ *.mp4, *.mov, *.m4v, *.mpg, *.mpeg, *.wmv, *.mkv, *.xvid, *.webm -File)
 $pList = @()
 #Gets pixel amount for each video
 echo '-Getting pixel load for: '
